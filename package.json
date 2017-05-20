@@ -1,0 +1,24 @@
+{
+  "name": "first-words",
+  "version": "1.0.0",
+  "description": "Say a word, see a thing...            if you have a resin.io account and a Raspberry Pi 3 with the sense HAT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbuchacher/first-words.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbuchacher/first-words/issues"
+  },
+  "homepage": "https://github.com/jbuchacher/first-words#readme",
+  "dependencies": {
+    "node-sense-hat": "0.0.2"
+  }
+}
